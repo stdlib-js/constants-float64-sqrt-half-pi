@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import SQRT_HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half-pi@deno/mod.js';
+import SQRT_HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half-pi@v0.0.8-deno/mod.js';
 ```
 
 #### SQRT_HALF_PI
@@ -56,7 +56,7 @@ var bool = ( SQRT_HALF_PI === 1.2533141373155003 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import SQRT_HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half-pi@deno/mod.js';
+import SQRT_HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half-pi@v0.0.8-deno/mod.js';
 
 console.log( SQRT_HALF_PI );
 // => 1.2533141373155003
