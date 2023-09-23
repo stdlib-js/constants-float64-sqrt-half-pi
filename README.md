@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-SQRT_HALF_PI = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half-pi@umd/browser.js' )
+SQRT_HALF_PI = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half-pi@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var SQRT_HALF_PI = require( 'path/to/vendor/umd/constants-float64-sqrt-half-pi/i
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half-pi@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half-pi@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -94,7 +94,7 @@ var bool = ( SQRT_HALF_PI === 1.2533141373155003 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half-pi@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half-pi@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
