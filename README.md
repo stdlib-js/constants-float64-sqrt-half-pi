@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import SQRT_HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half-pi@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-sqrt-half-pi/tags). For example,
+
+```javascript
 import SQRT_HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half-pi@v0.1.1-esm/index.mjs';
 ```
 
@@ -72,7 +77,7 @@ var bool = ( SQRT_HALF_PI === 1.2533141373155003 );
 <body>
 <script type="module">
 
-import SQRT_HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half-pi@v0.1.1-esm/index.mjs';
+import SQRT_HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-sqrt-half-pi@esm/index.mjs';
 
 console.log( SQRT_HALF_PI );
 // => 1.2533141373155003
